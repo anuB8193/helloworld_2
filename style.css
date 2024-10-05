@@ -12,6 +12,7 @@ main{
 
 .masthead{
     background-image: url('images/sonny_angel.jpg');
+    height: 200px;
 }
 
 .details{
