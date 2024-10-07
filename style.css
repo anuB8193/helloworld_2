@@ -13,10 +13,10 @@ main {
 }
 
 .masthead {
-    background-image: url('images/image.png');
-    background-size: contain; /* Change from cover to contain */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Ensure no repeating */
+    background-image: url('images/sonny_angel.jpg');
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     height: 200px;
     width: 100%; /* Ensure the masthead takes full width */
     border-radius: 20px;
