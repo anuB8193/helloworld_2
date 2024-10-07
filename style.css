@@ -14,11 +14,11 @@ main {
 
 .masthead {
     background-image: url('images/image.png');
-    background-size: cover; /* Keep it cover to fill the area while maintaining aspect ratio */
-    background-position: center; /* Center the image */
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat; /* No repeating */
     height: 300px; /* Increase the height to make it more prominent */
-    width: 100%; /* Ensure the image stretches the full width */
+    width: 100%; 
     max-width: 1000px; /* Set a max-width to limit its expansion on large screens */
     border-radius: 20px; /* Apply the rounded corners */
     margin: 0 auto 25px auto; /* Center it horizontally and add margin below */
@@ -61,6 +61,7 @@ div.code-html {
     color: #fff;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    font-size: 1.2em; /* Increase the font size */
 }
 
 img {
