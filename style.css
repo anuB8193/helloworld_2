@@ -14,13 +14,14 @@ main {
 
 .masthead {
     background-image: url('images/image.png');
-    background-size: contain; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 200px;
-    width: 100%; /* Ensure the masthead takes full width */
-    border-radius: 20px;
-    margin-bottom: 25px;
+    background-size: cover; /* Keep it cover to fill the area while maintaining aspect ratio */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* No repeating */
+    height: 300px; /* Increase the height to make it more prominent */
+    width: 100%; /* Ensure the image stretches the full width */
+    max-width: 1000px; /* Set a max-width to limit its expansion on large screens */
+    border-radius: 20px; /* Apply the rounded corners */
+    margin: 0 auto 25px auto; /* Center it horizontally and add margin below */
 }
 
 .details {
